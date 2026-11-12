@@ -1,0 +1,99 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pheonicia's Certificates</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        h1 {
+            color: #2c3e50;
+            margin-bottom: 10px;
+        }
+        p {
+            color: #666;
+        }
+        .cert-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 20px;
+            width: 100%;
+            max-width: 900px;
+        }
+        .cert-card {
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+            text-align: center;
+            transition: transform 0.2s;
+        }
+        .cert-card:hover {
+            transform: translateY(-5px);
+        }
+        .cert-card h3 {
+            margin-top: 0;
+            color: #34495e;
+        }
+        .btn {
+            display: inline-block;
+            margin-top: 15px;
+            padding: 10px 20px;
+            background-color: #3498db;
+            color: white;
+            text-decoration: none;
+            border-radius: 4px;
+            font-weight: bold;
+        }
+        .btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Pheonicia's Certificate Portfolio</h1>
+        <p>A collection of my professional achievements and credentials.</p>
+    </header>
+
+    <div class="cert-container">
+        
+        <!-- Certificate 1 (PDF Example) -->
+        <div class="cert-card">
+            <h3>Web Development Bootcamp</h3>
+            <p>Completed in 2025</p>
+            <a href="certificates/web-dev.pdf" target="_blank" class="btn">View PDF</a>
+        </div>
+
+        <!-- Certificate 2 (Image Example) -->
+        <div class="cert-card">
+            <h3>Digital Marketing Masterclass</h3>
+            <p>Completed in 2026</p>
+            <a href="certificates/marketing.jpg" target="_blank" class="btn">View Image</a>
+        </div>
+
+        <!-- Certificate 3 (Add more by copying a card block) -->
+        <div class="cert-card">
+            <h3>Project Management Professional</h3>
+            <p>Completed in 2026</p>
+            <a href="certificates/pmp.pdf" target="_blank" class="btn">View PDF</a>
+        </div>
+
+    </div>
+
+</body>
+</html>
